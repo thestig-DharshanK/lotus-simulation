@@ -1,0 +1,1572 @@
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  1
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+                                    INPUT DATA
+                                    ~~~~~~~~~~
+           simple single cylinder engine
+           model with no pipes
+ 
+     1 Cylinder /Port Injection /4 STROKE / Gasoline Engine
+     Cylinder . . . . . . .        1       Phase Angle. . . . . .     0.00deg
+     Bore . . . . . . . . .    87.00 mm    Stroke . . . . . . . .    84.00 mm
+     Con-Rod Length . . . .   130.00 mm    Piston Pin Offset  . .     0.00 mm
+     Compression Ratio  . .    11.00
+ 
+   Wiebe Heat Release Curve                              Default Coefficients
+     Coefficient        a               m
+                      10.000           2.000
+   Open Cycle Heat Transfer - Annand                     Default Coefficients
+     Coefficient        A               B
+                      0.200           0.800
+   Closed Cycle Heat Transfer - Annand            User Specified Coefficients
+     Coefficient        A               B               C
+                      0.200           0.800       0.4290E-08
+   Cylinder scavenge model                                  Mixing scavenging
+   Valves    2
+   ~~~~~~
+     Valve Number . . . . .       1       Poppet Valve Type. . .        Inlet
+     Inlet Valve Opens. . .    15.0 BTDC  Inlet Valve Closes . .    60.0 ABDC
+     Dwell at Max. Lift . .     0.0 deg.  Maximum Lift . . . . .    8.50  mm
+     Lift Diagram given by Polynomial Curve                 Default Fast Lift
+     Valve Number . . . . .       2       Poppet Valve Type. . .      Exhaust
+     Exhaust Valve Opens  .    40.0 BBDC  Exhaust Valve Closes .    20.0 ATDC
+     Dwell at Max. Lift . .     0.0 deg.  Maximum Lift . . . . .    8.00  mm
+     Lift Diagram given by Polynomial Curve                 Default Fast Lift
+   Ports    2
+   ~~~~~
+     Port Number. . . . . . . .   1                                Inlet Port
+     Valves per Cylinder. . .     2        Throat Diameter. . . .    28.00 mm
+     Flow Coefficient Specified by  10 point curve          Default Good Port
+     Cf @ 0.3 L/D . . . . .     0.78
+     Port Number. . . . . . . .   2                              Exhaust Port
+     Valves per Cylinder. . .     2        Throat Diameter. . . .    28.00 mm
+     Flow Coefficient Specified by  10 point curve          Default Good Port
+     Cf @ 0.3 L/D . . . . .     0.78
+   No Pipes Specified
+   ~~~~~~~~~~~~~~~~~~
+   No Plenums Specified
+   ~~~~~~~~~~~~~~~~~~~~
+   No Throttles Specified
+   ~~~~~~~~~~~~~~~~~~~~~~
+   No Compressors Specified
+   ~~~~~~~~~~~~~~~~~~~~~~~~
+   No Turbines Specified
+   ~~~~~~~~~~~~~~~~~~~~~
+   No Charge Coolers Specified
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Inlets   1
+   ~~~~~~
+     Inlet Number . . . . .       1                              Normal Inlet
+   Exits    1
+   ~~~~~
+     Exit Number. . . . . .       1                               Normal Exit
+   Connections    2
+   ~~~~~~~~~~~
+    1) Cylinder    1 Connects to Inlet       1 via Valve   1 and Port   1
+    2) Cylinder    1 Connects to Exit        1 via Valve   2 and Port   2
+   No Links Specified
+   ~~~~~~~~~~~~~~~~~~
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  2
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 1 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  1000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    15.8 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  3
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       1000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        4
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5005E-03 kg    Exhaust Valve(s). . 0.5011E-03 kg
+     Inlet Valve(s). . . 0.4170E-02 kg/s  Exhaust Valve(s). . 0.4176E-02 kg/s
+     Air Flow. . . . . . 0.3876E-02 kg/s
+     Scavenge Ratio . . .     0.950       Scavenge Effy  . . .      95.0  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      76.7  %
+     Vol. Eff. (Ambient)      78.4  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3538E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.141 bar   Trapped Temperature      88.2  C
+     Trapped Mass . . .  0.5267E-03 kg    Residuals  . . . .       4.96  %
+     Max.Cylinder Press       59.07 bar   @ Angle (deg)  . . .     17.0 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    10.737 bar   IMEP (Complete Cycle)   10.711 bar
+     IMEP (Pumping bdc-bdc)  -0.025 bar
+     Mechanical Efficiency     92.5  %    FMEP . . . . . . . .     0.801 bar
+     Indicated Power  . .      4.46 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   238.13  g/kWh     ISAC . . . . . . . .     3.13 kg/kWh
+     Ind. Thermal Effy. .    35.16  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .      4.46 kW    Brake Power  . . . .      4.12 kW
+     Indicated Torque . .     42.56 Nm    Brake Torque . . . .     39.38 Nm
+     ISFC . . . . . . . .   238.13  g/kWh BSFC . . . . . . . .   257.37 g/kWh
+     IMEP (Complete Cycle)   10.71  bar   BMEP . . . . . . . .     9.91 bar
+     FMEP . . . . . . . .     0.80  bar   Friction Power . . .     0.33  kW
+     ISAC . . . . . . . .     3.13 kg/kWh BSAC . . . . . . . .     3.38 kg/kWh
+     Ind. Thermal Effy. .    35.16      % Brake Thermal Effy .    32.53      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .     3.16 kW    Fraction of Fuel Energy  24.9  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  4
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   310.5 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.   924.5 C  HTC.    262.64 W/m2.K  HT.Rate      1.0502 kW
+     Piston:     Temp.   310.5 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.   924.5 C  HTC.    262.64 W/m2.K  HT.Rate      1.0025 kW
+     Liner :     Temp.   122.3 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   110.2 C
+     Mean    Gas.Temp.   922.0 C  HTC.    261.72 W/m2.K  HT.Rate      1.1027 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         922.0        261.7        0.5593E-01  122.26
+         2      0.0010         922.0        261.7        0.1877      122.26
+         3      0.0052         856.9        182.8        0.1323      122.26
+         4      0.0094         766.2        157.2        0.1037      122.26
+         5      0.0136         708.6        140.7        0.8598E-01  122.26
+         6      0.0178         664.6        127.4        0.7353E-01  122.26
+         7      0.0220         632.9        117.4        0.6411E-01  122.26
+         8      0.0262         605.9        108.4        0.5661E-01  122.26
+         9      0.0304         584.4        100.8        0.5040E-01  122.26
+        10      0.0346         565.5        93.80        0.4510E-01  122.26
+        11      0.0388         548.8        87.26        0.4047E-01  122.26
+        12      0.0430         533.8        81.11        0.3633E-01  122.26
+        13      0.0472         520.2        75.29        0.3255E-01  122.26
+        14      0.0514         507.9        69.75        0.2904E-01  122.26
+        15      0.0556         495.4        63.97        0.2571E-01  122.26
+        16      0.0598         482.9        57.97        0.2250E-01  122.26
+        17      0.0640         471.0        52.21        0.1932E-01  122.26
+        18      0.0682         457.7        45.80        0.1608E-01  122.26
+        19      0.0724         443.1        39.19        0.1265E-01  122.26
+        20      0.0766         422.8        31.17        0.8814E-02  122.26
+        21      0.0808         393.0        21.57        0.3946E-02  122.26
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.94448E-04 kg      CO   0.15306E-04 kg      O2   0.19553E-07 kg
+     N2*  0.37587E-03 kg      H2O  0.40695E-04 kg      Fuel 0.16063E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.936 % dry   Fuel   0.867E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.46833E-05 kg      CO   0.75895E-06 kg      O2   0.10794E-03 kg
+     N2*  0.37587E-03 kg      H2O  0.20179E-05 kg      Fuel 0.35381E-04 kg
+     CO2        0.620 % dry   CO         0.158 % dry   O2        19.639 % dry
+     N2*       77.733 % dry   H2O        0.652 % dry   Fuel 0.18032E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      40.1 deg  10 - 90 % Burn . . .      15.8  deg
+     Soc . .    -6.5 atdc    A10 % .     2.3 atdc     A50 % . .    10.0 atdc
+     A90 % .    18.1 atdc    Eob . .    33.6 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   4   (Within Limits)
+      Cylinder :  1 Inlet     -0.132 % ( 0.50)    Exhaust    -0.014 % ( 0.50)
+      Inlet    :  1           -0.132 % ( 0.50)
+      Exit     :  1           -0.014 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  5
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 2 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  2000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    17.5 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  6
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       2000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        4
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5158E-03 kg    Exhaust Valve(s). . 0.5180E-03 kg
+     Inlet Valve(s). . . 0.8597E-02 kg/s  Exhaust Valve(s). . 0.8634E-02 kg/s
+     Air Flow. . . . . . 0.7989E-02 kg/s
+     Scavenge Ratio . . .     0.956       Scavenge Effy  . . .      95.6  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      79.0  %
+     Vol. Eff. (Ambient)      80.8  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3647E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.177 bar   Trapped Temperature      90.7  C
+     Trapped Mass . . .  0.5397E-03 kg    Residuals  . . . .       4.41  %
+     Max.Cylinder Press       59.66 bar   @ Angle (deg)  . . .     17.0 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    11.354 bar   IMEP (Complete Cycle)   11.320 bar
+     IMEP (Pumping bdc-bdc)  -0.034 bar
+     Mechanical Efficiency     91.2  %    FMEP . . . . . . . .     1.001 bar
+     Indicated Power  . .      9.42 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   232.25  g/kWh     ISAC . . . . . . . .     3.05 kg/kWh
+     Ind. Thermal Effy. .    36.05  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .      9.42 kW    Brake Power  . . . .      8.59 kW
+     Indicated Torque . .     44.98 Nm    Brake Torque . . . .     41.00 Nm
+     ISFC . . . . . . . .   232.25  g/kWh BSFC . . . . . . . .   254.79 g/kWh
+     IMEP (Complete Cycle)   11.32  bar   BMEP . . . . . . . .    10.32 bar
+     FMEP . . . . . . . .     1.00  bar   Friction Power . . .     0.83  kW
+     ISAC . . . . . . . .     3.05 kg/kWh BSAC . . . . . . . .     3.35 kg/kWh
+     Ind. Thermal Effy. .    36.05      % Brake Thermal Effy .    32.86      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .     5.71 kW    Fraction of Fuel Energy  21.8  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  7
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   324.2 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.   947.0 C  HTC.    462.81 W/m2.K  HT.Rate      1.8781 kW
+     Piston:     Temp.   324.2 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.   947.0 C  HTC.    462.81 W/m2.K  HT.Rate      1.7927 kW
+     Liner :     Temp.   141.2 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   118.4 C
+     Mean    Gas.Temp.   945.6 C  HTC.    461.86 W/m2.K  HT.Rate      2.0351 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         945.6        461.9        0.9935E-01  141.22
+         2      0.0010         945.6        461.9        0.3331      141.22
+         3      0.0052         887.0        322.0        0.2380      141.22
+         4      0.0094         800.3        277.5        0.1882      141.22
+         5      0.0136         744.6        248.5        0.1570      141.22
+         6      0.0178         702.1        225.4        0.1351      141.22
+         7      0.0220         671.6        207.9        0.1184      141.22
+         8      0.0262         645.6        192.1        0.1051      141.22
+         9      0.0304         625.0        178.9        0.9403E-01  141.22
+        10      0.0346         607.0        166.6        0.8458E-01  141.22
+        11      0.0388         591.2        155.2        0.7630E-01  141.22
+        12      0.0430         577.1        144.5        0.6888E-01  141.22
+        13      0.0472         564.6        134.3        0.6211E-01  141.22
+        14      0.0514         553.3        124.6        0.5579E-01  141.22
+        15      0.0556         542.2        114.5        0.4979E-01  141.22
+        16      0.0598         531.3        104.0        0.4399E-01  141.22
+        17      0.0640         521.3        93.90        0.3823E-01  141.22
+        18      0.0682         510.5        82.67        0.3236E-01  141.22
+        19      0.0724         499.5        71.09        0.2612E-01  141.22
+        20      0.0766         485.6        57.06        0.1908E-01  141.22
+        21      0.0808         468.1        40.15        0.9677E-02  141.22
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.96788E-04 kg      CO   0.15685E-04 kg      O2   0.20148E-07 kg
+     N2*  0.38518E-03 kg      H2O  0.41703E-04 kg      Fuel 0.16556E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.935 % dry   Fuel   0.872E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.42695E-05 kg      CO   0.69190E-06 kg      O2   0.11126E-03 kg
+     N2*  0.38518E-03 kg      H2O  0.18396E-05 kg      Fuel 0.36466E-04 kg
+     CO2        0.551 % dry   CO         0.140 % dry   O2        19.746 % dry
+     N2*       77.708 % dry   H2O        0.580 % dry   Fuel 0.18130E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      44.4 deg  10 - 90 % Burn . . .      17.5  deg
+     Soc . .    -8.2 atdc    A10 % .     1.5 atdc     A50 % . .    10.0 atdc
+     A90 % .    19.0 atdc    Eob . .    36.2 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   4   (Within Limits)
+      Cylinder :  1 Inlet     -0.409 % ( 0.50)    Exhaust    -0.007 % ( 0.50)
+      Inlet    :  1           -0.409 % ( 0.50)
+      Exit     :  1           -0.007 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  8
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 3 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  3000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    19.2 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p  9
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       3000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        6
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5219E-03 kg    Exhaust Valve(s). . 0.5220E-03 kg
+     Inlet Valve(s). . . 0.1305E-01 kg/s  Exhaust Valve(s). . 0.1305E-01 kg/s
+     Air Flow. . . . . . 0.1213E-01 kg/s
+     Scavenge Ratio . . .     0.959       Scavenge Effy  . . .      95.9  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      79.9  %
+     Vol. Eff. (Ambient)      81.7  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3690E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.201 bar   Trapped Temperature      94.9  C
+     Trapped Mass . . .  0.5445E-03 kg    Residuals  . . . .       4.12  %
+     Max.Cylinder Press       59.23 bar   @ Angle (deg)  . . .     17.0 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    11.609 bar   IMEP (Complete Cycle)   11.542 bar
+     IMEP (Pumping bdc-bdc)  -0.067 bar
+     Mechanical Efficiency     89.6  %    FMEP . . . . . . . .     1.202 bar
+     Indicated Power  . .     14.41 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   230.49  g/kWh     ISAC . . . . . . . .     3.03 kg/kWh
+     Ind. Thermal Effy. .    36.32  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .     14.41 kW    Brake Power  . . . .     12.91 kW
+     Indicated Torque . .     45.86 Nm    Brake Torque . . . .     41.09 Nm
+     ISFC . . . . . . . .   230.49  g/kWh BSFC . . . . . . . .   257.29 g/kWh
+     IMEP (Complete Cycle)   11.54  bar   BMEP . . . . . . . .    10.34 bar
+     FMEP . . . . . . . .     1.20  bar   Friction Power . . .     1.50  kW
+     ISAC . . . . . . . .     3.03 kg/kWh BSAC . . . . . . . .     3.38 kg/kWh
+     Ind. Thermal Effy. .    36.32      % Brake Thermal Effy .    32.54      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .     8.04 kW    Fraction of Fuel Energy  20.3  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 10
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   337.0 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.   964.5 C  HTC.    644.77 W/m2.K  HT.Rate      2.6345 kW
+     Piston:     Temp.   337.0 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.   964.5 C  HTC.    644.77 W/m2.K  HT.Rate      2.5147 kW
+     Liner :     Temp.   159.1 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   128.2 C
+     Mean    Gas.Temp.   963.4 C  HTC.    643.81 W/m2.K  HT.Rate      2.8891 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         963.4        643.8        0.1384      159.15
+         2      0.0010         963.4        643.8        0.4627      159.15
+         3      0.0052         908.3        448.3        0.3333      159.15
+         4      0.0094         824.5        386.6        0.2646      159.15
+         5      0.0136         769.8        346.5        0.2215      159.15
+         6      0.0178         728.2        314.5        0.1910      159.15
+         7      0.0220         698.4        290.3        0.1679      159.15
+         8      0.0262         673.1        268.4        0.1494      159.15
+         9      0.0304         653.1        250.2        0.1340      159.15
+        10      0.0346         635.7        233.2        0.1209      159.15
+        11      0.0388         620.5        217.4        0.1094      159.15
+        12      0.0430         607.2        202.6        0.9905E-01  159.15
+        13      0.0472         595.4        188.5        0.8962E-01  159.15
+        14      0.0514         584.9        175.1        0.8082E-01  159.15
+        15      0.0556         574.8        161.1        0.7248E-01  159.15
+        16      0.0598         565.1        146.6        0.6440E-01  159.15
+        17      0.0640         556.5        132.7        0.5638E-01  159.15
+        18      0.0682         547.7        117.2        0.4821E-01  159.15
+        19      0.0724         539.4        101.1        0.3953E-01  159.15
+        20      0.0766         530.3        81.70        0.2973E-01  159.15
+        21      0.0808         522.4        58.26        0.1604E-01  159.15
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.97647E-04 kg      CO   0.15824E-04 kg      O2   0.20383E-07 kg
+     N2*  0.38860E-03 kg      H2O  0.42073E-04 kg      Fuel 0.16753E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.935 % dry   Fuel   0.875E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.40249E-05 kg      CO   0.65225E-06 kg      O2   0.11258E-03 kg
+     N2*  0.38860E-03 kg      H2O  0.17342E-05 kg      Fuel 0.36901E-04 kg
+     CO2        0.515 % dry   CO         0.131 % dry   O2        19.802 % dry
+     N2*       77.695 % dry   H2O        0.542 % dry   Fuel 0.18181E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      48.7 deg  10 - 90 % Burn . . .      19.2  deg
+     Soc . .   -10.0 atdc    A10 % .     0.7 atdc     A50 % . .    10.0 atdc
+     A90 % .    19.8 atdc    Eob . .    38.7 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   6   (Within Limits)
+      Cylinder :  1 Inlet     -0.009 % ( 0.50)    Exhaust    -0.160 % ( 0.50)
+      Inlet    :  1           -0.009 % ( 0.50)
+      Exit     :  1           -0.160 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 11
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:05 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 4 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  4000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    20.8 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 12
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       4000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        6
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5245E-03 kg    Exhaust Valve(s). . 0.5245E-03 kg
+     Inlet Valve(s). . . 0.1748E-01 kg/s  Exhaust Valve(s). . 0.1748E-01 kg/s
+     Air Flow. . . . . . 0.1625E-01 kg/s
+     Scavenge Ratio . . .     0.960       Scavenge Effy  . . .      96.0  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      80.3  %
+     Vol. Eff. (Ambient)      82.1  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3708E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.218 bar   Trapped Temperature      99.1  C
+     Trapped Mass . . .  0.5462E-03 kg    Residuals  . . . .       3.96  %
+     Max.Cylinder Press       58.48 bar   @ Angle (deg)  . . .     17.0 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    11.727 bar   IMEP (Complete Cycle)   11.602 bar
+     IMEP (Pumping bdc-bdc)  -0.125 bar
+     Mechanical Efficiency     87.9  %    FMEP . . . . . . . .     1.403 bar
+     Indicated Power  . .     19.31 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   230.41  g/kWh     ISAC . . . . . . . .     3.03 kg/kWh
+     Ind. Thermal Effy. .    36.34  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .     19.31 kW    Brake Power  . . . .     16.98 kW
+     Indicated Torque . .     46.10 Nm    Brake Torque . . . .     40.53 Nm
+     ISFC . . . . . . . .   230.41  g/kWh BSFC . . . . . . . .   262.10 g/kWh
+     IMEP (Complete Cycle)   11.60  bar   BMEP . . . . . . . .    10.20 bar
+     FMEP . . . . . . . .     1.40  bar   Friction Power . . .     2.33  kW
+     ISAC . . . . . . . .     3.03 kg/kWh BSAC . . . . . . . .     3.45 kg/kWh
+     Ind. Thermal Effy. .    36.34      % Brake Thermal Effy .    31.94      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .    10.25 kW    Fraction of Fuel Energy  19.3  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 13
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   348.9 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.   979.2 C  HTC.    815.41 W/m2.K  HT.Rate      3.3465 kW
+     Piston:     Temp.   348.9 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.   979.2 C  HTC.    815.41 W/m2.K  HT.Rate      3.1944 kW
+     Liner :     Temp.   175.9 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   136.3 C
+     Mean    Gas.Temp.   978.3 C  HTC.    814.44 W/m2.K  HT.Rate      3.7045 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         978.3        814.4        0.1746      175.92
+         2      0.0010         978.3        814.4        0.5822      175.92
+         3      0.0052         925.5        566.4        0.4224      175.92
+         4      0.0094         844.3        488.8        0.3365      175.92
+         5      0.0136         790.6        438.5        0.2823      175.92
+         6      0.0178         749.6        398.2        0.2440      175.92
+         7      0.0220         720.3        367.8        0.2149      175.92
+         8      0.0262         695.6        340.4        0.1917      175.92
+         9      0.0304         676.1        317.4        0.1723      175.92
+        10      0.0346         659.3        296.2        0.1558      175.92
+        11      0.0388         644.6        276.3        0.1413      175.92
+        12      0.0430         631.8        257.7        0.1284      175.92
+        13      0.0472         620.7        240.0        0.1165      175.92
+        14      0.0514         610.9        223.2        0.1054      175.92
+        15      0.0556         601.6        205.7        0.9494E-01  175.92
+        16      0.0598         592.9        187.5        0.8477E-01  175.92
+        17      0.0640         585.5        170.0        0.7470E-01  175.92
+        18      0.0682         578.4        150.5        0.6443E-01  175.92
+        19      0.0724         572.4        130.4        0.5352E-01  175.92
+        20      0.0766         567.2        106.0        0.4103E-01  175.92
+        21      0.0808         564.7        76.04        0.2258E-01  175.92
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.97949E-04 kg      CO   0.15873E-04 kg      O2   0.20506E-07 kg
+     N2*  0.38980E-03 kg      H2O  0.42203E-04 kg      Fuel 0.16834E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.935 % dry   Fuel   0.877E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.38758E-05 kg      CO   0.62809E-06 kg      O2   0.11312E-03 kg
+     N2*  0.38980E-03 kg      H2O  0.16700E-05 kg      Fuel 0.37079E-04 kg
+     CO2        0.494 % dry   CO         0.126 % dry   O2        19.834 % dry
+     N2*       77.687 % dry   H2O        0.520 % dry   Fuel 0.18211E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      52.9 deg  10 - 90 % Burn . . .      20.8  deg
+     Soc . .   -11.7 atdc    A10 % .    -0.1 atdc     A50 % . .    10.0 atdc
+     A90 % .    20.7 atdc    Eob . .    41.2 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   6   (Within Limits)
+      Cylinder :  1 Inlet     -0.002 % ( 0.50)    Exhaust    -0.208 % ( 0.50)
+      Inlet    :  1           -0.002 % ( 0.50)
+      Exit     :  1           -0.208 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 14
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 5 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  5000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    22.5 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 15
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       5000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        6
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5245E-03 kg    Exhaust Valve(s). . 0.5245E-03 kg
+     Inlet Valve(s). . . 0.2185E-01 kg/s  Exhaust Valve(s). . 0.2185E-01 kg/s
+     Air Flow. . . . . . 0.2031E-01 kg/s
+     Scavenge Ratio . . .     0.961       Scavenge Effy  . . .      96.1  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      80.3  %
+     Vol. Eff. (Ambient)      82.1  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3707E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.231 bar   Trapped Temperature     103.7  C
+     Trapped Mass . . .  0.5456E-03 kg    Residuals  . . . .       3.87  %
+     Max.Cylinder Press       57.56 bar   @ Angle (deg)  . . .     17.0 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    11.756 bar   IMEP (Complete Cycle)   11.550 bar
+     IMEP (Pumping bdc-bdc)  -0.206 bar
+     Mechanical Efficiency     86.1  %    FMEP . . . . . . . .     1.604 bar
+     Indicated Power  . .     24.03 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   231.41  g/kWh     ISAC . . . . . . . .     3.04 kg/kWh
+     Ind. Thermal Effy. .    36.18  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .     24.03 kW    Brake Power  . . . .     20.69 kW
+     Indicated Torque . .     45.90 Nm    Brake Torque . . . .     39.52 Nm
+     ISFC . . . . . . . .   231.41  g/kWh BSFC . . . . . . . .   268.72 g/kWh
+     IMEP (Complete Cycle)   11.55  bar   BMEP . . . . . . . .     9.95 bar
+     FMEP . . . . . . . .     1.60  bar   Friction Power . . .     3.34  kW
+     ISAC . . . . . . . .     3.04 kg/kWh BSAC . . . . . . . .     3.53 kg/kWh
+     Ind. Thermal Effy. .    36.18      % Brake Thermal Effy .    31.16      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .    12.35 kW    Fraction of Fuel Energy  18.6  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 16
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   360.3 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.   992.8 C  HTC.    976.91 W/m2.K  HT.Rate      4.0237 kW
+     Piston:     Temp.   360.3 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.   992.8 C  HTC.    976.91 W/m2.K  HT.Rate      3.8408 kW
+     Liner :     Temp.   191.9 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   144.0 C
+     Mean    Gas.Temp.   992.1 C  HTC.    975.94 W/m2.K  HT.Rate      4.4839 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         992.1        975.9        0.2087      191.93
+         2      0.0010         992.1        975.9        0.6933      191.93
+         3      0.0052         940.7        678.0        0.5061      191.93
+         4      0.0094         862.2        585.5        0.4046      191.93
+         5      0.0136         809.3        525.5        0.3401      191.93
+         6      0.0178         768.9        477.5        0.2945      191.93
+         7      0.0220         740.1        441.3        0.2599      191.93
+         8      0.0262         715.9        408.7        0.2322      191.93
+         9      0.0304         696.9        381.4        0.2092      191.93
+        10      0.0346         680.5        356.1        0.1895      191.93
+        11      0.0388         666.4        332.5        0.1723      191.93
+        12      0.0430         654.1        310.3        0.1568      191.93
+        13      0.0472         643.5        289.3        0.1427      191.93
+        14      0.0514         634.3        269.4        0.1295      191.93
+        15      0.0556         625.7        248.5        0.1171      191.93
+        16      0.0598         617.9        226.9        0.1050      191.93
+        17      0.0640         611.6        206.1        0.9302E-01  191.93
+        18      0.0682         605.9        182.9        0.8078E-01  191.93
+        19      0.0724         601.7        158.9        0.6764E-01  191.93
+        20      0.0766         598.6        129.5        0.5222E-01  191.93
+        21      0.0808         597.7        93.02        0.2885E-01  191.93
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.97843E-04 kg      CO   0.15856E-04 kg      O2   0.20489E-07 kg
+     N2*  0.38938E-03 kg      H2O  0.42158E-04 kg      Fuel 0.16832E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.935 % dry   Fuel   0.877E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.37827E-05 kg      CO   0.61301E-06 kg      O2   0.11311E-03 kg
+     N2*  0.38938E-03 kg      H2O  0.16299E-05 kg      Fuel 0.37074E-04 kg
+     CO2        0.483 % dry   CO         0.123 % dry   O2        19.852 % dry
+     N2*       77.683 % dry   H2O        0.508 % dry   Fuel 0.18227E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      57.2 deg  10 - 90 % Burn . . .      22.5  deg
+     Soc . .   -13.5 atdc    A10 % .    -1.0 atdc     A50 % . .    10.0 atdc
+     A90 % .    21.6 atdc    Eob . .    43.7 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   6   (Within Limits)
+      Cylinder :  1 Inlet      0.010 % ( 0.50)    Exhaust    -0.248 % ( 0.50)
+      Inlet    :  1            0.010 % ( 0.50)
+      Exit     :  1           -0.248 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 17
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 6 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  6000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    24.2 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 18
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       6000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        6
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5229E-03 kg    Exhaust Valve(s). . 0.5227E-03 kg
+     Inlet Valve(s). . . 0.2614E-01 kg/s  Exhaust Valve(s). . 0.2614E-01 kg/s
+     Air Flow. . . . . . 0.2429E-01 kg/s
+     Scavenge Ratio . . .     0.962       Scavenge Effy  . . .      96.2  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      80.1  %
+     Vol. Eff. (Ambient)      81.9  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3697E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.242 bar   Trapped Temperature     108.4  C
+     Trapped Mass . . .  0.5435E-03 kg    Residuals  . . . .       3.77  %
+     Max.Cylinder Press       56.60 bar   @ Angle (deg)  . . .     17.0 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    11.733 bar   IMEP (Complete Cycle)   11.425 bar
+     IMEP (Pumping bdc-bdc)  -0.308 bar
+     Mechanical Efficiency     84.2  %    FMEP . . . . . . . .     1.804 bar
+     Indicated Power  . .     28.52 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   233.28  g/kWh     ISAC . . . . . . . .     3.07 kg/kWh
+     Ind. Thermal Effy. .    35.89  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .     28.52 kW    Brake Power  . . . .     24.02 kW
+     Indicated Torque . .     45.40 Nm    Brake Torque . . . .     38.23 Nm
+     ISFC . . . . . . . .   233.28  g/kWh BSFC . . . . . . . .   277.03 g/kWh
+     IMEP (Complete Cycle)   11.42  bar   BMEP . . . . . . . .     9.62 bar
+     FMEP . . . . . . . .     1.80  bar   Friction Power . . .     4.50  kW
+     ISAC . . . . . . . .     3.07 kg/kWh BSAC . . . . . . . .     3.64 kg/kWh
+     Ind. Thermal Effy. .    35.89      % Brake Thermal Effy .    30.22      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .    14.38 kW    Fraction of Fuel Energy  18.1  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 19
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   371.2 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.  1006.2 C  HTC.   1130.89 W/m2.K  HT.Rate      4.6763 kW
+     Piston:     Temp.   371.2 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.  1006.2 C  HTC.   1130.89 W/m2.K  HT.Rate      4.4637 kW
+     Liner :     Temp.   207.4 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   151.5 C
+     Mean    Gas.Temp.  1005.6 C  HTC.   1129.92 W/m2.K  HT.Rate      5.2371 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         1006.        1130.        0.2411      207.39
+         2      0.0010         1006.        1130.        0.7979      207.39
+         3      0.0052         955.2        784.2        0.5859      207.39
+         4      0.0094         879.4        677.5        0.4698      207.39
+         5      0.0136         827.4        608.3        0.3957      207.39
+         6      0.0178         787.6        553.1        0.3432      207.39
+         7      0.0220         759.3        511.4        0.3033      207.39
+         8      0.0262         735.5        473.9        0.2715      207.39
+         9      0.0304         716.9        442.4        0.2450      207.39
+        10      0.0346         701.0        413.4        0.2224      207.39
+        11      0.0388         687.3        386.3        0.2026      207.39
+        12      0.0430         675.5        360.8        0.1848      207.39
+        13      0.0472         665.4        336.7        0.1686      207.39
+        14      0.0514         656.8        313.8        0.1535      207.39
+        15      0.0556         648.9        289.9        0.1391      207.39
+        16      0.0598         641.9        265.0        0.1252      207.39
+        17      0.0640         636.4        241.1        0.1114      207.39
+        18      0.0682         631.6        214.3        0.9705E-01  207.39
+        19      0.0724         628.2        186.4        0.8148E-01  207.39
+        20      0.0766         625.7        151.9        0.6299E-01  207.39
+        21      0.0808         625.1        109.1        0.3481E-01  207.39
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.97468E-04 kg      CO   0.15795E-04 kg      O2   0.20426E-07 kg
+     N2*  0.38789E-03 kg      H2O  0.41996E-04 kg      Fuel 0.16784E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.935 % dry   Fuel   0.878E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.36759E-05 kg      CO   0.59570E-06 kg      O2   0.11279E-03 kg
+     N2*  0.38789E-03 kg      H2O  0.15838E-05 kg      Fuel 0.36968E-04 kg
+     CO2        0.471 % dry   CO         0.120 % dry   O2        19.870 % dry
+     N2*       77.679 % dry   H2O        0.496 % dry   Fuel 0.18244E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      61.5 deg  10 - 90 % Burn . . .      24.2  deg
+     Soc . .   -15.2 atdc    A10 % .    -1.8 atdc     A50 % . .    10.0 atdc
+     A90 % .    22.4 atdc    Eob . .    46.2 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   6   (Within Limits)
+      Cylinder :  1 Inlet      0.025 % ( 0.50)    Exhaust    -0.281 % ( 0.50)
+      Inlet    :  1            0.025 % ( 0.50)
+      Exit     :  1           -0.281 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 20
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+   OPERATING CONDITION
+   ~~~~~~~~~~~~~~~~~~~
+     "Load Case 7 - ( Created by Test Wizard )"
+     Engine Speed . . . . .  7000.0  rpm
+     50% Combustion Angle .    10.0 ATDC                      Default Timing
+     Burn Angle (10%-90%) .    25.9 deg.                      Default Period
+     Overall Equiv Ratio  .    1.10
+     Ambient Pressure . . .   1.000 bar    Ambient Temperature  .    20.0  C
+     Relative Humidity  . .   0.000        Specific Humidity  . . 0.0000 kg/kg
+     Inlet   1 Pressure . .   1.000 bar    Temperature. . . . . .    20.0  C
+     Exit    1 Pressure . .   1.000 bar
+     Mechanical Friction  .                                  Default Gasoline
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 21
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+ 
+                                     RESULTS                       7000.0 rpm
+                                     ~~~~~~~
+   Simulation Cycle Number        6
+   ~~~~~~~~~~~~~~~~~~~~~~~
+   GAS FLOWS
+   ~~~~~~~~~                        Per Cycle
+   Cylinder   1
+     Inlet Valve(s). . . 0.5200E-03 kg    Exhaust Valve(s). . 0.5198E-03 kg
+     Inlet Valve(s). . . 0.3034E-01 kg/s  Exhaust Valve(s). . 0.3032E-01 kg/s
+     Air Flow. . . . . . 0.2819E-01 kg/s
+     Scavenge Ratio . . .     0.962       Scavenge Effy  . . .      96.2  %
+     Trapping Effy  . . .     100.0  %    Charging Effy  . . .      79.7  %
+     Vol. Eff. (Ambient)      81.4  %     @ Press, Temp: 1.000 bar,  20.0 C
+   FUELLING
+   ~~~~~~~~
+      1) Fuel Mass/Cycle 0.3676E-04 kg    Overall Equiv ratio       1.10
+   TRAPPED CONDITIONS
+   ~~~~~~~~~~~~~~~~~~
+   Cylinder   1
+     Trapped Pressure .       1.251 bar   Trapped Temperature     113.4  C
+     Trapped Mass . . .  0.5403E-03 kg    Residuals  . . . .       3.75  %
+     Max.Cylinder Press       55.60 bar   @ Angle (deg)  . . .     16.5 ATDC
+   PERFORMANCE
+   ~~~~~~~~~~~
+   Cylinder   1
+     IMEP (Power bdc-bdc)    11.664 bar   IMEP (Complete Cycle)   11.233 bar
+     IMEP (Pumping bdc-bdc)  -0.431 bar
+     Mechanical Efficiency     82.2  %    FMEP . . . . . . . .     2.005 bar
+     Indicated Power  . .     32.72 kW
+   CONSUMPTION
+   ~~~~~~~~~~~
+   Cylinder   1
+     ISFC . . . . . . . .   235.92  g/kWh     ISAC . . . . . . . .     3.10 kg/kWh
+     Ind. Thermal Effy. .    35.49  %
+   TOTALS
+   ~~~~~~
+     Indicated Power  . .     32.72 kW    Brake Power  . . . .     26.88 kW
+     Indicated Torque . .     44.64 Nm    Brake Torque . . . .     36.67 Nm
+     ISFC . . . . . . . .   235.92  g/kWh BSFC . . . . . . . .   287.18 g/kWh
+     IMEP (Complete Cycle)   11.23  bar   BMEP . . . . . . . .     9.23 bar
+     FMEP . . . . . . . .     2.00  bar   Friction Power . . .     5.84  kW
+     ISAC . . . . . . . .     3.10 kg/kWh BSAC . . . . . . . .     3.78 kg/kWh
+     Ind. Thermal Effy. .    35.49      % Brake Thermal Effy .    29.15      %
+   HEAT TRANSFER
+   ~~~~~~~~~~~~~                    per Cylinder
+   Cylinder   1
+     Cyl. Heat Loss Rate .    16.33 kW    Fraction of Fuel Energy  17.7  %
+   ============================================================================
+
+   ============================================================================
+   Lotus Engine Simulation   v5.06b     p 22
+   Test TEMP  from file "C:\Users\Dharshan K\Desktop\_ENGIN_RUN1.SIM"   at 23:22:06 on 21/08/23
+   ============================================================================
+                          MISCELLANEOUS DATA AND RESULTS
+   MAXIMUM STEP SIZE
+     Overlap = 0.50 deg    Valve Open = 0.50 deg    Valves Closed = 0.50 deg
+   FUEL
+     Hydrogen/Carbon Ratio      1.80    Relative Density . . .   0.750
+     Oxygen/Carbon Ratio        0.00    Molecular Weight . . .  114.23 g/mole
+     Stoichiometric A/F Ratio  14.46    Calorific Value  . . .  43000. kJ/kg
+      1) Maldistribution. .     0.01    Eff.Calorific Value. .  37776. kJ/kg
+     Moles per mole Fuel   C . . .   8.26  H . . .  14.87  O . . .   0.00
+      1)Moles in Prod.  CO2 .   6.59  CO. .  1.68  H2. .   6.93  H2O .  0.50
+   HEAT TRANSFER
+   Cylinder   1
+     Head  :     Temp.   381.7 C  Area .6539E-02 m2      Area Factor  1.10
+     Mean    Gas.Temp.  1019.0 C  HTC.   1278.20 W/m2.K  HT.Rate      5.3050 kW
+     Piston:     Temp.   381.7 C  Area .6242E-02 m2      Area Factor  1.05
+     Mean    Gas.Temp.  1019.0 C  HTC.   1278.20 W/m2.K  HT.Rate      5.0638 kW
+     Liner :     Temp.   222.3 C  TDC. .2733E-03 m2      BDC.    .2094E-01 m2  Outer Temp.   158.8 C
+     Mean    Gas.Temp.  1018.5 C  HTC.   1277.23 W/m2.K  HT.Rate      5.9645 kW
+     Seg. No  Dist. to top M.Gas.T.(C) HT.Coef(W/M2.K) HT.Rate(kW) In.W.Temp(C)
+         1      0.0000         1019.        1277.        0.2719      222.29
+         2      0.0010         1019.        1277.        0.8964      222.29
+         3      0.0052         968.7        885.5        0.6617      222.29
+         4      0.0094         895.8        765.3        0.5323      222.29
+         5      0.0136         844.8        687.5        0.4492      222.29
+         6      0.0178         805.6        625.4        0.3903      222.29
+         7      0.0220         777.8        578.5        0.3455      222.29
+         8      0.0262         754.5        536.3        0.3097      222.29
+         9      0.0304         736.4        501.0        0.2800      222.29
+        10      0.0346         720.9        468.3        0.2546      222.29
+        11      0.0388         707.6        437.9        0.2324      222.29
+        12      0.0430         696.3        409.3        0.2124      222.29
+        13      0.0472         686.7        382.3        0.1942      222.29
+        14      0.0514         678.6        356.5        0.1771      222.29
+        15      0.0556         671.2        329.6        0.1609      222.29
+        16      0.0598         664.7        301.6        0.1451      222.29
+        17      0.0640         659.7        274.6        0.1293      222.29
+        18      0.0682         655.3        244.2        0.1128      222.29
+        19      0.0724         652.1        212.4        0.9475E-01  222.29
+        20      0.0766         649.6        173.1        0.7321E-01  222.29
+        21      0.0808         648.8        124.3        0.4041E-01  222.29
+   MASSES AT FIRST VALVE OPENING
+   Cylinder   1
+     CO2  0.96895E-04 kg      CO   0.15702E-04 kg      O2   0.20307E-07 kg
+     N2*  0.38561E-03 kg      H2O  0.41749E-04 kg      Fuel 0.16689E-08 kg
+     CO2       13.239 % dry   CO         3.371 % dry   O2         0.004 % dry
+     N2*       82.372 % dry   H2O       13.935 % dry   Fuel   0.879E-04 % dry
+   MASSES AT LAST VALVE CLOSING
+   Cylinder   1
+     CO2  0.36292E-05 kg      CO   0.58814E-06 kg      O2   0.11215E-03 kg
+     N2*  0.38561E-03 kg      H2O  0.15637E-05 kg      Fuel 0.36761E-04 kg
+     CO2        0.468 % dry   CO         0.119 % dry   O2        19.875 % dry
+     N2*       77.677 % dry   H2O        0.492 % dry   Fuel 0.18249E+01 % dry
+   COMBUSTION DATA
+   Cylinder   1
+     0 - 100 % Burn . . .      65.7 deg  10 - 90 % Burn . . .      25.9  deg
+     Soc . .   -17.0 atdc    A10 % .    -2.6 atdc     A50 % . .    10.0 atdc
+     A90 % .    23.3 atdc    Eob . .    48.7 atdc
+   FLOW DATA
+   CONVERGENCE            Cycle No.   6   (Within Limits)
+      Cylinder :  1 Inlet      0.042 % ( 0.50)    Exhaust    -0.307 % ( 0.50)
+      Inlet    :  1            0.042 % ( 0.50)
+      Exit     :  1           -0.307 % ( 0.50)
+   ============================================================================
+
+   ============================================================================
+ Performance Summary
+ -------------------
+   Eng.Speed [rev/min]  B.Power [kW]  B.Torque [Nm]  BMEP [bar]  BSFC [g/kW/hr]  V.Eff. [%]  Converged/Cycles
+   ---------------------------------------------------------------------------------------------------------
+         1000.0              4.12           39.38       9.91         257.37          78.4       Yes    (  4)
+         2000.0              8.59           41.00      10.32         254.79          80.8       Yes    (  4)
+         3000.0             12.91           41.09      10.34         257.29          81.7       Yes    (  6)
+         4000.0             16.98           40.53      10.20         262.10          82.1       Yes    (  6)
+         5000.0             20.69           39.52       9.95         268.72          82.1       Yes    (  6)
+         6000.0             24.02           38.23       9.62         277.03          81.9       Yes    (  6)
+         7000.0             26.88           36.67       9.23         287.18          81.4       Yes    (  6)
+ 
+ 
+ 
+ Concise Format Summary
+ ----------------------
+    1000.0     4.12    39.38   9.91   257.37   78.4  Yes  (  4)
+    2000.0     8.59    41.00  10.32   254.79   80.8  Yes  (  4)
+    3000.0    12.91    41.09  10.34   257.29   81.7  Yes  (  6)
+    4000.0    16.98    40.53  10.20   262.10   82.1  Yes  (  6)
+    5000.0    20.69    39.52   9.95   268.72   82.1  Yes  (  6)
+    6000.0    24.02    38.23   9.62   277.03   81.9  Yes  (  6)
+    7000.0    26.88    36.67   9.23   287.18   81.4  Yes  (  6)
+ 
+ 
+ 
+ 
+ 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$ Start of echo of input data file
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ 
+simple single cylinder engine
+model with no pipes
+TEMP       534
+CYCLE
+    4
+CYLINDER
+   -1
+$default cylinder
+        87.00        84.00       130.00         0.00        11.00         0.00
+    0    0    1
+FUEL
+    1
+CSYS
+    2
+BURN
+    1
+HEAT
+    1
+   -1        0.200        0.800 0.429000E-08
+TEMPERATURE
+    1        1.100        1.050         1.00   20
+   -1
+    2    2    1
+    0
+    0
+    0
+PORTS
+    2
+$default intake port
+    1    0    2       28.000
+$default exhaust port
+    2    0    2       28.000
+VALVES
+    2
+$default intake valve
+    1    1    0
+    0    0         15.0         60.0          0.0        8.500      0.00000      0.00000      112.480
+$default exhaust valve
+    1    2    0
+    0    0         40.0         20.0          0.0        8.000      0.00000      0.00000     -100.000
+INLETS
+    1
+$default inlet
+EXITS
+    1
+$default exit
+DPROPERTIES
+    0
+       0.00      0.00000      0.00000      0.00000      0.00000      0.00000
+CONNECTIONS
+    2
+CYLINDER   1      INLET   1      VALVE   1      PORT   1
+CYLINDER   1      EXIT   1      VALVE   2      PORT   2
+TESTS
+    7
+Load Case 1 - ( Created by Test Wizard )
+  1000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+Load Case 2 - ( Created by Test Wizard )
+  2000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+Load Case 3 - ( Created by Test Wizard )
+  3000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+Load Case 4 - ( Created by Test Wizard )
+  4000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+Load Case 5 - ( Created by Test Wizard )
+  5000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+Load Case 6 - ( Created by Test Wizard )
+  6000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+Load Case 7 - ( Created by Test Wizard )
+  7000.00      1
+    0
+    0
+    2  1.10000      1.00000     0.100000E-01
+  1.00000      20.0000     0.000000E+00
+  1.00000      20.0000
+    1
+  1.00000      25.0000
+    0
+    0
+    0
+    0
+    0    1       0.0000    0    0
+    5    3       0.0000       0.0000
+    0    0    0    0
+ICENGINES
+    1
+$Default Detailed Eng
+    1
+SOLVER SETTINGS
+    2
+    1
+    0
+     0.5000     2.5000     0.2000     1.2000
+ROUTE
+    0
+USER ARGUMENTS
+           12          20
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+     0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00    0.000000E+00
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BUILDER 411833231141
+            9          20           0           1    1.500000E-02     2.50000         14.1845         21.2077
+           35           2           6           1           0           0           1           0           1
+            0           0           0           0           0           0           0           0           0
+            0           0
+           17          10          19           0           0           0           1           0           1
+            0           0           0           0           0           1           1           0           0
+            0           0
+            1          15          14           1           1           1           0           4           1
+            0           1           0           0           0           1           1           0           0
+            0           0
+            2          13          15           1           1           1           1           4           1
+            0           1           0           0           0           1           1           0           0
+            0           0
+            2          18          15           1           1           1           2           4           2
+            0           1           0           0           0           1           1           0           0
+            0           0
+            3          11          15           1           1           1           1           4           1
+            0           1           0           0           0           1           1           0           0
+            0           0
+            3          20          15           1           1           1           2           4           2
+            0           1           0           0           0           1           1           0           0
+            0           0
+            4          10          15           1           1           1           1           4           1
+            0           1           0           0           0           1           1           0           0
+            0           0
+           11          21          15           3           1           1           2           4           1
+            0           1           0           0           0           1           1           0           0
+            0           0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$ End of echo of input data file
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
